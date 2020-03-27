@@ -1,7 +1,7 @@
 // JS
 import './js/'
 
-// SCSS
+// SASS
 import './assets/scss/main.scss'
 
 // CSS (example)
