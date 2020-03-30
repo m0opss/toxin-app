@@ -1,0 +1,30 @@
+header.header-composition
+  include logo
+  nav.header-menu
+    ul.header-menu__list
+      //- li.header-menu__item 
+      //-   a.header-menu__link(href="#") О нас
+      +header-menu__item("#", "О нас")
+      select.header-menu__item
+        option
+          a.header-menu__link(href="#") Услуги
+        option
+          a.header-menu__link(href="#") 1
+        option 
+          a.header-menu__link(href="#") 2
+        option
+          a.header-menu__link(href="#") 3
+      +header-menu__item("#", "Вакансии")
+      +header-menu__item("#", "Новости")
+      select.header-menu__item
+        option
+          a.header-menu__link(href="#") Соглашения
+        option
+          a.header-menu__link(href="#") bb
+        option 
+          a.header-menu__link(href="#") cc
+        option
+          a.header-menu__link(href="#") dd
+
+  button.button--login Войти
+  button.button--signin Зарегистрироваться

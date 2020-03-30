@@ -1,0 +1,48 @@
+%button {
+    border-radius: 22px;
+    border: 0px;
+    padding: 0;
+    margin: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+%button--purple {
+    background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+    // border: 2px solid;
+    // border-image: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%) 1;
+    color: white;
+}
+
+%button--green {
+    background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+}
+
+%button--white {
+    background: white;
+    color: #bc9cff;
+    border: double 0.15em transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(white, white), linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.button--login {
+    @extend %button;
+    @extend %button--white;
+    width: 87px;
+    height: 34px;
+}
+
+.button--signin {
+    @extend %button;
+    @extend %button--purple;
+    width: 196px;
+    height: 34px;
+}

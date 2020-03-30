@@ -1,0 +1,14 @@
+.logo {
+    width: 105px;
+    height: 40px;
+    display: flex;
+    flex: 2;
+}
+
+.logo__group {
+    width: 40px;
+    height: 40px;
+    background: none;
+    background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+    border-radius: 100%;
+}
