@@ -36,6 +36,9 @@
 .button--login {
     @extend %button;
     @extend %button--white;
+    // display: block;
+    position: absolute;
+    right: 356px;
     width: 87px;
     height: 34px;
 }
@@ -43,6 +46,9 @@
 .button--signin {
     @extend %button;
     @extend %button--purple;
+    position: absolute; 
+    right: 140px;
     width: 196px;
     height: 34px;
+    // right: 140px;
 }

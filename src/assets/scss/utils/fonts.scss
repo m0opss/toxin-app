@@ -1,2 +1,5 @@
+@import "font-face";
 // Fonts here
 // see more: https://github.com/vedees/webpack-template/blob/master/README.md#import-js-files
+
+@include font-face("Montserrat", "/assets/fonts/Montserrat-Regular/Montserrat-Regular");
